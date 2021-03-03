@@ -1,0 +1,15 @@
+.todo-item__parent-div {
+    display: flex;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.todo-item__item-div {
+    border: 1px solid black;
+    width: 80%;
+}
+
+.todo-item__item-label {
+    width: 90%;
+}

@@ -1,0 +1,8 @@
+
+.app-container {
+    position: relative;
+    height: 100vh;
+}
+.component1__span {
+    color: red;
+}

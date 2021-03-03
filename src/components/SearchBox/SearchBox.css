@@ -1,0 +1,10 @@
+
+.search-box__parent-div {
+    border: 1px solid black;
+    margin: 16px 20px;
+}
+
+.search-box__search-input {
+    border: none;
+    width: 90%;
+}

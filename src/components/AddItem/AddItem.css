@@ -1,0 +1,16 @@
+.add-item__parent-div {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.add-item__plus-button {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.add-item__plus-icon {
+    font-size: 40px;
+}
+
