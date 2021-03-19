@@ -6,13 +6,14 @@ import { faEdit, faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 import './TodoItem.css'
 class TodoItem extends Component {
     render(){
-        const {value} = this.props;
+        const {value, item} = this.props;
+        console.log(item)
         const baseclassName = "todo-item"
         return (
             <Fragment>
                 <div className={`${baseclassName}__parent-div`}>
                     <div className={`${baseclassName}__item-div`}>
-                    <label className={`${baseclassName}__item-label`}>Task1</label>
+                    <label className={`${baseclassName}__item-label`}>{item.taskTitle}</label>
                     <FontAwesomeIcon icon={faEdit} />
                     </div>
                     <div className={`${baseclassName}__trash-div`}>
